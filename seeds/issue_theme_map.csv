@@ -1,0 +1,98 @@
+product_group,issue,sub_issue,theme,fraud_definition,note
+checking_savings,Closing an account,Company closed your account,account_access_closure,none,
+checking_savings,Managing an account,Problem accessing account,account_access_closure,none,
+checking_savings,Closing an account,Funds not received from closed account,account_access_closure,none,
+checking_savings,Opening an account,Unable to open an account,account_access_closure,none,
+checking_savings,Closing an account,Can't close your account,account_access_closure,none,
+checking_savings,Problem caused by your funds being low,Overdrafts and overdraft fees,fees_overdraft,none,
+checking_savings,Managing an account,Fee problem,fees_overdraft,none,
+checking_savings,Problem caused by your funds being low,Non-sufficient funds and associated fees,fees_overdraft,none,
+checking_savings,Problem caused by your funds being low,Bounced checks or returned payments,fees_overdraft,none,
+checking_savings,Problem caused by your funds being low,Late or other fees,fees_overdraft,none,
+checking_savings,Closing an account,Fees charged for closing account,fees_overdraft,none,
+checking_savings,Managing an account,Problem with fees or penalties,fees_overdraft,none,
+checking_savings,Problem with a lender or other company charging your account,Transaction was not authorized,fraud_unauthorized,core,"Label explicitly names fraud, a scam, or an unauthorized charge/account"
+checking_savings,Opening an account,Account opened without my consent or knowledge,fraud_unauthorized,core,"Label explicitly names fraud, a scam, or an unauthorized charge/account"
+checking_savings,Opening an account,Account opened as a result of fraud,fraud_unauthorized,core,"Label explicitly names fraud, a scam, or an unauthorized charge/account"
+checking_savings,Incorrect information on your report,Information belongs to someone else,out_of_scope_credit_reporting,none,Credit-reporting issue filed under a deposit product; excluded
+checking_savings,Incorrect information on your report,Account status incorrect,out_of_scope_credit_reporting,none,Credit-reporting issue filed under a deposit product; excluded
+checking_savings,Problem with a company's investigation into an existing problem,Their investigation did not fix an error on your report,out_of_scope_credit_reporting,none,Credit-reporting issue filed under a deposit product; excluded
+checking_savings,Problem with fraud alerts or security freezes,,out_of_scope_credit_reporting,none,Credit-reporting issue filed under a deposit product; excluded
+checking_savings,Incorrect information on your report,Account information incorrect,out_of_scope_credit_reporting,none,Credit-reporting issue filed under a deposit product; excluded
+checking_savings,Improper use of your report,Reporting company used your report improperly,out_of_scope_credit_reporting,none,Credit-reporting issue filed under a deposit product; excluded
+checking_savings,Problem with a company's investigation into an existing problem,Difficulty submitting a dispute or getting information about a dispute over the phone,out_of_scope_credit_reporting,none,Credit-reporting issue filed under a deposit product; excluded
+checking_savings,Improper use of your report,Credit inquiries on your report that you don't recognize,out_of_scope_credit_reporting,none,Credit-reporting issue filed under a deposit product; excluded
+checking_savings,Problem with a company's investigation into an existing problem,Problem with personal statement of dispute,out_of_scope_credit_reporting,none,Credit-reporting issue filed under a deposit product; excluded
+checking_savings,Problem with a company's investigation into an existing problem,Was not notified of investigation status or results,out_of_scope_credit_reporting,none,Credit-reporting issue filed under a deposit product; excluded
+checking_savings,Incorrect information on your report,Personal information incorrect,out_of_scope_credit_reporting,none,Credit-reporting issue filed under a deposit product; excluded
+checking_savings,Problem with a company's investigation into an existing problem,Investigation took more than 30 days,out_of_scope_credit_reporting,none,Credit-reporting issue filed under a deposit product; excluded
+checking_savings,Credit monitoring or identity theft protection services,Billing dispute for services,out_of_scope_credit_reporting,none,Credit-reporting issue filed under a deposit product; excluded
+checking_savings,Credit monitoring or identity theft protection services,Problem canceling credit monitoring or identify theft protection service,out_of_scope_credit_reporting,none,Credit-reporting issue filed under a deposit product; excluded
+checking_savings,Incorrect information on your report,Old information reappears or never goes away,out_of_scope_credit_reporting,none,Credit-reporting issue filed under a deposit product; excluded
+checking_savings,Unable to get your credit report or credit score,Other problem getting your report or credit score,out_of_scope_credit_reporting,none,Credit-reporting issue filed under a deposit product; excluded
+checking_savings,Credit monitoring or identity theft protection services,Didn't receive services that were advertised,out_of_scope_credit_reporting,none,Credit-reporting issue filed under a deposit product; excluded
+checking_savings,Problem with a credit reporting company's investigation into an existing problem,Their investigation did not fix an error on your report,out_of_scope_credit_reporting,none,Credit-reporting issue filed under a deposit product; excluded
+checking_savings,Incorrect information on your report,Public record information inaccurate,out_of_scope_credit_reporting,none,Credit-reporting issue filed under a deposit product; excluded
+checking_savings,Problem with a credit reporting company's investigation into an existing problem,Investigation took more than 30 days,out_of_scope_credit_reporting,none,Credit-reporting issue filed under a deposit product; excluded
+checking_savings,Incorrect information on your report,Information is missing that should be on the report,out_of_scope_credit_reporting,none,Credit-reporting issue filed under a deposit product; excluded
+checking_savings,Credit monitoring or identity theft protection services,Received unwanted marketing or advertising,out_of_scope_credit_reporting,none,Credit-reporting issue filed under a deposit product; excluded
+checking_savings,Improper use of your report,Received unsolicited financial product or insurance offers after opting out,out_of_scope_credit_reporting,none,Credit-reporting issue filed under a deposit product; excluded
+checking_savings,Problem with a credit reporting company's investigation into an existing problem,Was not notified of investigation status or results,out_of_scope_credit_reporting,none,Credit-reporting issue filed under a deposit product; excluded
+checking_savings,Credit monitoring or identity theft protection services,Problem with product or service terms changing,out_of_scope_credit_reporting,none,Credit-reporting issue filed under a deposit product; excluded
+checking_savings,Unable to get your credit report or credit score,Problem getting your free annual credit report,out_of_scope_credit_reporting,none,Credit-reporting issue filed under a deposit product; excluded
+checking_savings,Problem with a credit reporting company's investigation into an existing problem,Difficulty submitting a dispute or getting information about a dispute over the phone,out_of_scope_credit_reporting,none,Credit-reporting issue filed under a deposit product; excluded
+checking_savings,Problem with a credit reporting company's investigation into an existing problem,Problem with personal statement of dispute,out_of_scope_credit_reporting,none,Credit-reporting issue filed under a deposit product; excluded
+checking_savings,Improper use of your report,Report provided to employer without your written authorization,out_of_scope_credit_reporting,none,Credit-reporting issue filed under a deposit product; excluded
+checking_savings,Problem with credit report or credit score,Incorrect information on your report,out_of_scope_credit_reporting,none,Credit-reporting issue filed under a deposit product; excluded
+checking_savings,Opening an account,Didn't receive terms that were advertised,service_disclosures,none,
+checking_savings,Opening an account,Confusing or missing disclosures,service_disclosures,none,
+checking_savings,Managing an account,Problem with renewal,service_disclosures,none,
+checking_savings,Managing an account,Deposits and withdrawals,transaction_problem,none,
+checking_savings,Managing an account,Problem using a debit or ATM card,transaction_problem,none,
+checking_savings,Managing an account,Funds not handled or disbursed as instructed,transaction_problem,none,
+checking_savings,Managing an account,Banking errors,transaction_problem,none,
+checking_savings,Managing an account,Problem making or receiving payments,transaction_problem,none,
+checking_savings,Managing an account,Cashing a check,transaction_problem,none,
+checking_savings,Problem with a lender or other company charging your account,Money was taken from your account on the wrong day or for the wrong amount,transaction_problem,none,
+checking_savings,Problem with a lender or other company charging your account,Can't stop withdrawals from your account,transaction_problem,none,
+checking_savings,Managing an account,Deposits or withdrawals,transaction_problem,none,
+checking_savings,,,unknown,none,Missing issue or sub-issue
+checking_savings,Managing an account,,unknown,none,Missing issue or sub-issue
+money_transfer,"Managing, opening, or closing your mobile wallet account",,account_access_closure,none,
+money_transfer,Trouble accessing funds in your mobile or digital wallet,,account_access_closure,none,
+money_transfer,Unexpected or other fees,,fees_overdraft,none,
+money_transfer,Fraud or scam,,fraud_unauthorized,core,"Label explicitly names fraud, a scam, or an unauthorized charge/account"
+money_transfer,Other service problem,,service_disclosures,none,
+money_transfer,Confusing or missing disclosures,,service_disclosures,none,
+money_transfer,Problem with customer service,,service_disclosures,none,
+money_transfer,Confusing or misleading advertising or marketing,,service_disclosures,none,
+money_transfer,"Overdraft, savings, or rewards features",,service_disclosures,none,
+money_transfer,Other transaction problem,,transaction_problem,none,
+money_transfer,Unauthorized transactions or other transaction problem,,transaction_problem,broad,Money-transfer label mixes unauthorized and other transaction problems; counted as fraud only in the broad definition
+money_transfer,Money was not available when promised,,transaction_problem,none,
+money_transfer,Wrong amount charged or received,,transaction_problem,none,
+money_transfer,Lost or stolen money order,,transaction_problem,none,
+money_transfer,Problem adding money,,transaction_problem,none,
+money_transfer,Lost or stolen check,,transaction_problem,none,
+money_transfer,Incorrect exchange rate,,transaction_problem,none,
+prepaid,Problem getting a card or closing an account,"Trouble getting, activating, or registering a card",account_access_closure,none,
+prepaid,Problem getting a card or closing an account,Trouble closing card,account_access_closure,none,
+prepaid,Problem getting a card or closing an account,Trouble getting a working replacement card,account_access_closure,none,
+prepaid,Problem getting a card or closing an account,Don't want a card provided by your employer or the government,account_access_closure,none,
+prepaid,Unexpected or other fees,,fees_overdraft,none,
+prepaid,Problem with overdraft,Overdraft charges,fees_overdraft,none,
+prepaid,Problem with overdraft,"Was signed up for overdraft on card, but don't want to be",fees_overdraft,none,
+prepaid,Problem with an overdraft,Overdraft charges,fees_overdraft,none,
+prepaid,Problem with a purchase or transfer,Charged for a purchase or transfer you did not make with the card,fraud_unauthorized,core,"Label explicitly names fraud, a scam, or an unauthorized charge/account"
+prepaid,Trouble using the card,Trouble getting information about the card,service_disclosures,none,
+prepaid,Advertising,Confusing or misleading advertising about the card,service_disclosures,none,
+prepaid,Advertising,Changes in terms from what was offered or advertised,service_disclosures,none,
+prepaid,Trouble using the card,Trouble using the card to spend money in a store or online,transaction_problem,none,
+prepaid,Problem with a purchase or transfer,Card company isn't resolving a dispute about a purchase or transfer,transaction_problem,none,
+prepaid,Trouble using the card,Problem using the card to withdraw money from an ATM,transaction_problem,none,
+prepaid,Trouble using the card,Problem with direct deposit,transaction_problem,none,
+prepaid,Trouble using the card,Trouble using the card to pay a bill,transaction_problem,none,
+prepaid,Problem with a purchase or transfer,Overcharged for a purchase or transfer you did make with the card,transaction_problem,none,
+prepaid,Trouble using the card,Problem adding money,transaction_problem,none,
+prepaid,Trouble using the card,Trouble using the card to send money to another person,transaction_problem,none,
+prepaid,Trouble using the card,Problem with a check written from your prepaid card account,transaction_problem,none,
